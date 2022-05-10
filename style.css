@@ -1,0 +1,140 @@
+@font-face{
+ font-family: titulo;
+ src: url(fontes/idroid.otf);       
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+.link{
+    color: #205b3a;
+    font-weight: bold;
+}
+.para{
+    color: #2b7049;
+    font-weight: bold;
+}
+body{
+    background-color: #99cc99;
+}
+
+header{
+    background-image: linear-gradient(#3bd27f, #1a5c38);
+    box-shadow: 0px 1px 9px 1px black;
+}
+
+header h1{
+    text-align: center;
+    padding-top: 0.7em;
+    padding-bottom: 1em;
+    color: white;
+    text-shadow: 2px -2px 5px rgba(0, 0, 0, 0.421);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: lighter;
+}
+header h2{
+    text-align: center;
+    font-size: 18px;
+    color: rgba(241, 241, 241, 0.837);
+    text-shadow: 2px -2px 10px rgba(0, 0, 0, 0.421);
+    font-weight: lighter;
+}
+nav{
+    margin-top: 1.5em;
+    padding-bottom: 0.5em;
+    
+}
+
+nav a{
+    display: inline;
+    padding-right: 1em;
+    padding-left: 2em;
+    padding-bottom: 0.5em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main{
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 2em;
+    background-color: white;
+    box-shadow: 0px -1px 8px 6px #00000024;
+    padding: 1.5em;
+
+}
+ 
+main h1{
+    font-family: titulo;
+    color: #205b3a;
+    padding-bottom: .5em;
+}
+
+main p {
+    text-indent: 1em;
+    padding: 10px 0px;
+    text-align: justify;
+}
+
+main h2{
+    font-family: titulo;
+    color: #205b3a;
+    background-image: linear-gradient(to right,#99cc99, white);
+    padding-left: 10px;
+}
+
+#robo{
+    width: 100%;
+}
+#irina{
+    width: 100%;
+}
+#bugdroid{
+    display: block;
+    margin: auto;
+}
+
+iframe{
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: min-content;
+}
+
+div{
+    background-color: #99cc9985;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.294);
+    padding: 10px;
+}
+div h3{
+    background-color: #2fa866;
+    border-radius: 10px 10px 0px 0px;
+    padding-left: 1em;
+    padding: .5em;
+    color: white;
+}
+.listas{
+    display: flex;
+    gap: 50%;
+}
+
+#lista1{
+    padding-right: 10%;
+    padding-left: 30px;
+    display: block;
+}
+
+#lista2{
+    padding-left: 30px;
+    padding-right: 10%;
+    display: block;
+    margin: auto;
+}
+
